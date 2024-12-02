@@ -122,7 +122,7 @@ class ServiceRestProxy extends RestProxy
                         "decode_content" => true,
                         "config" => [
                             "curl" => [
-                                CURLOPT_SSLVERSION => CURL_SSLVERSION_TLSv1_2
+//                                CURLOPT_SSLVERSION => CURL_SSLVERSION_TLSv1_2
                             ]
                         ]
                     ),
